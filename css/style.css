@@ -1,0 +1,359 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cleaner{
+	clear: both;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+body h1, h2, h3, h4{
+	font-family: 'Roboto Black', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.cyan{
+	color: #032e81;
+}
+/*Header*/
+#header{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	position: absolute;
+}
+.wrapper{
+	width: 80%;
+	margin: 0px auto;
+}
+#header a{
+	color: #fff;
+}
+#logo{
+	width: 400px;
+	float: left;
+}
+#logo h1{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+}
+#navbar{
+	width: 700px;
+	float: right;
+	text-align: right;
+}
+#navbar ul li{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+#navbar ul li a{
+	margin-left: 35px;
+	padding: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+#navbar ul{
+	margin-top: 6px;
+}
+#navbar ul li a:hover{
+	border-radius: 10px;
+	background-color: #fff;
+	color: #0a4662;
+}
+/*Pozadina 1.*/
+#background-gornji{
+	width: 100%;
+}
+#background{
+	width: 100%;
+	height: 900px;
+	background-image: url('../img/Naslovna.png');
+	background-size: cover;
+	background-position: center;
+}
+#tekst-pocetni{
+	width:550px;
+	padding: 15px 15px 0px 15px;
+	position: relative;
+	left: 9%;
+	top: 200px;
+	text-align: left;
+}
+#tekst-pocetni h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 900;
+	text-shadow: 2px 0px 2px black;
+	line-height: 0.95;
+}
+#tekst-pocetni p{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+#tekst-pocetni a{
+	position: relative;
+	top: 30px;
+	color: #fff;
+	background-color: #032e81;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 600;
+}
+#tekst-pocetni a:hover{
+	background-color: #fff;
+	color: #032e81;
+}
+/*Usluge*/
+#usluge{
+	width: 90%;
+	margin: 50px auto 0px auto;
+}
+#usluge h1{
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 50px;
+	color: #0a4662;
+}
+#usluge-glavne{
+	width: 90%;
+	margin: 0px auto;
+}
+.blok-usluge{
+	width: 30%;
+	height: 540px;
+	float: left;
+	background-size: cover;
+	border-bottom: 2px solid black;
+}
+.blok-usluge img{
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+}
+.blok-usluge.srednji{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.blok-usluge h2{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 35px;
+}
+.blok-usluge p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.5;
+	font-size: 19px;
+	max-height: 250px;
+}
+#saznajte-vise{
+	width: 100%;
+}
+#usluge ul{
+	text-align: center;
+	margin-top: 50px;
+}
+#usluge ul li a{
+	font-size: 26px;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 2px 20px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#usluge ul li a:hover{
+	background-color: black;
+	border-color: black;
+	color: #fff;
+}
+/*Zasto mi*/
+#background-donji{
+	width: 100%;
+	height: 300px;
+	background-image: url('../img/pozadina-donja.jpg');
+	margin-top: 150px;
+	background-position: center;
+	background-size: scroll;
+	background-attachment: fixed;
+}
+#background-donji div{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+#background-donji div h2{
+	text-align: center;
+	margin: 100px auto;
+	font-size: 100px;
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+#zasto-mi{
+	width: 100%;
+}
+#zasto-mi .wrapper{
+	width: 60%;
+	margin: 200px auto 0px auto;
+}
+#zasto-mi li{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin-bottom: 30px;
+}
+#zasto-mi li div{
+	margin-left: 20px;
+}
+#zasto-mi li div h3{
+	font-size: 24px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-weight: 900;
+	font-style: italic;
+}
+#zasto-mi li div p{
+	padding-bottom: 30px;
+	font-size: 18px;
+}
+/*Footer*/
+footer{
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/Footer.png');
+	margin-top: 180px;
+	display: inline-block;
+}
+.blok-footer{
+	width: 400px;
+	height: 300px;
+	margin: 40px 0px;
+	float: left;
+}
+.blok-footer.srednji{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#logo-veliki{
+	width: 300px;
+	height: 50px;
+	background-image: url('../img/Logo mali.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 175px;
+	position: relative;
+}
+#socijalne-mreze{
+	width: 100%;
+	height: 50px;
+}
+#socijalne-mreze{
+	margin-top: 280px;
+	text-align: center;
+}
+#socijalne-mreze ul li{
+	display: inline-block;
+	font-size: 30px;
+}
+#socijalne-mreze a{
+	color: #2469cc;
+	margin: 0px 15px;
+}
+#socijalne-mreze a:hover{
+	color: #fff;
+}
+#footer-nav ul{
+	position: relative;
+	top: 120px;
+}
+#footer-nav ul li{
+	font-size: 25px;
+	margin-bottom: 7px;
+	text-align: center;
+	font-weight: 600;
+}
+#footer-nav ul li a{
+	color: #fff;
+}
+#footer-nav ul li a:hover{
+	color: #2469cc;
+}
+/*Stranica usluge*/
+#header-drugi{
+	width: 100%;
+	background-color: #031d4d;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#header-drugi a{
+	color: #fff;
+}
+/*Dostupne usluge*/
+#usluge-opsirnije{
+	width: 100%;
+}
+#usluge-opsirnije h1{
+	margin-top: 30px;
+	font-size: 75px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#dostupne-usluge{
+	width: 100%;
+	margin: 50px auto;
+}
+.blok-usluga{
+	width: 100%;
+	height: 450px;
+	display: flex;
+	border-bottom: 2px solid black;
+	margin-bottom: 150px;
+	padding-bottom: 10px;
+}
+.blok-usluga .opis-usluge{
+	text-align: center;
+	margin-left: 50px;
+}
+.opis-usluge h2{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.opis-usluge p{
+	font-size: 24px;
+}
+.opis-usluge ul{
+	margin-top: 100px;
+	text-align: left;
+}
+.opis-usluge ul p{
+	font-size: 35px;
+}
+.opis-usluge ul li{
+	list-style-type: disc;
+	font-size: 20px;
+	margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
