@@ -53,6 +53,10 @@ a{
 	padding: 10px;
 	font-size: 24px;
 	font-weight: 550;
+	border-radius: 10px;
+	transition-duration: 100ms;
+	transition-property: background-color, color;
+	transition-timing-function: ease-in;
 }
 #navbar ul{
 	margin-top: 6px;
@@ -80,6 +84,13 @@ a{
 	left: 9%;
 	top: 200px;
 	text-align: left;
+	-webkit-animation-name:tekst-load;	
+	-webkit-animation-duration:2s;	
+	animation-timing-function: cubic;
+}
+@-webkit-keyframes tekst-load{
+	from{-webkit-transform:translateX(30%)}	
+	to{-webkit-transform:translateX(0%)}
 }
 #tekst-pocetni h1{
 	color: #fff;
@@ -93,17 +104,18 @@ a{
 	color: #fff;
 	font-size: 30px;
 	font-weight: 600;
-	margin-top: 10px;
+	margin-top: 7px;
 }
 #tekst-pocetni a{
 	position: relative;
-	top: 30px;
+	top: 25px;
 	color: #fff;
 	background-color: #032e81;
 	font-size: 25px;
 	padding: 10px;
 	border-radius: 10px;
 	font-weight: 600;
+	transition: 200ms;
 }
 #tekst-pocetni a:hover{
 	background-color: #fff;
@@ -118,7 +130,7 @@ a{
 	text-align: center;
 	font-size: 60px;
 	margin-bottom: 50px;
-	color: #0a4662;
+	color: #032e81;
 }
 #usluge-glavne{
 	width: 90%;
@@ -131,10 +143,17 @@ a{
 	background-size: cover;
 	border-bottom: 2px solid black;
 	overflow: hidden;
+	transition: 350ms;
+	border-radius: 5px;
+}
+.blok-usluge:hover{
+	transform: scale(1.1);
+	box-shadow: 2px 4px 7px #222;
+	border-radius: 5px;
 }
 .blok-usluge img{
 	width: 100%;
-	height: 250px;
+	height: auto;
 	background-size: cover;
 }
 .blok-usluge.srednji{
@@ -164,14 +183,15 @@ a{
 	font-size: 26px;
 	border: 2px solid black;
 	border-radius: 20px;
-	padding: 2px 20px;
+	padding: 3px 20px;
 	color: black;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	transition: 350ms;
 }
 #usluge ul li a:hover{
-	background-color: black;
-	border-color: black;
+	background-color: #032e81;
+	border-color: #032e81;
 	color: #fff;
 }
 /*Zasto mi*/
@@ -232,17 +252,18 @@ footer{
 	height: 400px;
 	background-image: url('../img/Footer.png');
 	margin-top: 180px;
-	display: inline-block;
+	overflow: hidden;
 }
 .blok-footer{
 	width: 400px;
-	height: 300px;
-	margin: 40px 0px;
+	height: auto;
+	margin: 200px 0px 0px 0px;
 	float: left;
 }
-.blok-footer.srednji{
-	margin-left: 100px;
-	margin-right: 100px;
+.blok-footer.desni{
+	float: right;
+	text-align: center;
+	margin-top: 150px;
 }
 #logo-veliki{
 	width: 300px;
@@ -250,15 +271,10 @@ footer{
 	background-image: url('../img/Logo mali.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	top: 175px;
-	position: relative;
 }
 #socijalne-mreze{
 	width: 100%;
 	height: 50px;
-}
-#socijalne-mreze{
-	margin-top: 280px;
 	text-align: center;
 }
 #socijalne-mreze ul li{
@@ -271,10 +287,6 @@ footer{
 }
 #socijalne-mreze a:hover{
 	color: #fff;
-}
-#footer-nav ul{
-	position: relative;
-	top: 120px;
 }
 #footer-nav ul li{
 	font-size: 25px;
@@ -355,6 +367,7 @@ footer{
 	width: 30%;
 	height: 500px;
 	float: left;
+	border-radius: 2px;
 }
 .galerija-srednji{
 	margin-left: 5%;
@@ -365,6 +378,13 @@ footer{
 	height: auto;
 	margin: 0px auto;
 	box-shadow: 2px 2px 5px #222;
+	transition-duration: 200ms;
+	border-radius: 7px;
+}
+.galerija-blok img:hover{
+	transform: scale(1.1);
+	box-shadow: 8px 8px 5px #222;
+	border-radius: 5px;
 }
 .galerija-srednji img{
 	position: relative;
@@ -475,4 +495,42 @@ footer{
 	padding: 10px;
 	cursor: pointer;
 	font-size: 18px;
+}
+/*Stranica O autoru*/
+#autor-pozadina{
+	background-color: #032e81;
+}
+#blok-autor{
+	width: 60%;
+	margin: 100px auto;
+	background-color: rgb(0, 0, 0, 0.5);
+	padding: 50px;
+}
+#autor-slika{
+	width: 300px;
+	height: 400px;
+	float: left;
+	background-color: black;
+}
+#autor-tekst{
+	position: relative;
+	left: 60px;
+}
+#autor-tekst h3{
+	width: 90%;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+#autor-tekst p{
+	width: 90%;
+	margin: 0px auto;
+	text-align: left;
+	font-size: 27px;
+	color: #fff;
+	padding-top: 20px;
+	line-height: 1.5;
+}
+#autor-opis{
+	line-height: 1;
 }
