@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="1.0">
+	<channel>
+		<title>Galerija</title>
+		<link>https://bogdanv44.github.io/FullWash/pages/galerija.html</link>
+		<description>Galerija</description>
+		
+		<item>
+			<title>Transformacija Interijera</title>
+			<link>https://bogdanv44.github.io/FullWash/pages/galerija.html</link>
+			<description>Promena nakon našeg dubinskog pranja i detailinga.</description>
+		</item>
+	</channel>
+	<channel>
+		<title>Usluge</title>
+		<link>https://bogdanv44.github.io/FullWash/pages/usluge.html</link>
+		<description>Naše usluge</description>
+		
+		<item>
+			<title>Unutrašnji detailing</title>
+			<link>https://bogdanv44.github.io/FullWash/pages/usluge.html</link>
+			<description>Naša nova usluga!</description>
+		</item>
+	</channel>
+</rss>

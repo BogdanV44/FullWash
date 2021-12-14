@@ -1,0 +1,33 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://bogdanv44.github.io/FullWash/index.html</loc>
+		<lastmod>2021-12-11</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>	
+	</url>
+	<url>
+		<loc>https://bogdanv44.github.io/FullWash/pages/usluge.html</loc>
+		<lastmod>2021-12-11</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>	
+	</url>
+	<url>
+		<loc>https://bogdanv44.github.io/FullWash/pages/galerija.html</loc>
+		<lastmod>2021-12-11</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>	
+	</url>
+	<url>
+		<loc>https://bogdanv44.github.io/FullWash/pages/kontakt.html</loc>
+		<lastmod>2021-12-11</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.5</priority>	
+	</url>
+	<url>
+		<loc>https://bogdanv44.github.io/FullWash/pages/autor.html</loc>
+		<lastmod>2021-12-12</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.5</priority>	
+	</url>
+</urlset>
+	
