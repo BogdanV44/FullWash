@@ -16,7 +16,6 @@ ul{
 }
 a{
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
 }
 .cyan{
 	color: #032e81;
@@ -459,7 +458,7 @@ footer{
 	font-size: 30px;
 }
 .kontakt-forma-txt{
-	width: 100%;
+	width: 90%;
 	height: 40px;
 	color: #000;
 	border: 1px solid #bcbcbc;
@@ -472,7 +471,7 @@ footer{
 	color: #aaa;
 }
 .kontakt-forma-textarea{
-	width: 100%;
+	width: 90%;
 	height: 130px;
 	color: #000;
 	border: 1px solid #bcbcbc;
@@ -485,7 +484,7 @@ footer{
 	color: #aaa;
 }
 .kontakt-forma-btn{
-	width: 100%;
+	width: 95%;
 	border: none;
 	outline: none;
 	border-radius: 50px;
